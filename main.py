@@ -55,7 +55,7 @@ class MainWindow(QMainWindow):
         self.animations = {}
 
         for anim_details in [{"name": "left_attach", "side": "left"}, {"name": "right_attach", "side": "right"}]:
-            # Create a widget for ech animation
+            # Create a widget for each animation
             # TODO: Hide widgets when not in use instead of moving off screen
             widget = self.animationWidgets[anim_details["side"]]
 
